@@ -48,7 +48,8 @@ const resolvers = {
                     { $addToSet: { savedBooks: args }},
                     { new: true }
                 ); 
-
+                    console.log(context.user)
+                    console.log(updatedUser)
                 return updatedUser;
             }
    
