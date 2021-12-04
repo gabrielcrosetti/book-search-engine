@@ -2,6 +2,9 @@
 
 This application is a Google book search engine that was made using MERN stack. It allows an authenticated user to search Google for any books, save them to their profile, and delete them. 
 
+## Deployed Link
+[Live Site](https://immense-brook-61452.herokuapp.com/)
+
 ## Technologies Used 
 
 * Javascript
