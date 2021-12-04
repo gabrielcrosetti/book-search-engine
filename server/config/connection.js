@@ -1,10 +1,10 @@
-const se = require('se');
+const mongoose = require('mongoose');
 
-se.connect(process.env.MONGODB_URI || 'mongodb://localhost/googlebooks', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/googlebooks', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
   useFindAndModify: false,
 });
 
-module.exports = se.connection;
+module.exports = mongoose.connection;
